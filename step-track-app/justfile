@@ -1,0 +1,8 @@
+alias b := build
+
+build:
+	cd ../pedometer-plugin && npm run build
+	npm rm pedometer-plugin
+	rm -rf node_modules/pedometer-plugin
+	npm i ../pedometer-plugin
+	ionic cap sync

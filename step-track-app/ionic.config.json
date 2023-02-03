@@ -1,0 +1,7 @@
+{
+  "name": "step-track-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
